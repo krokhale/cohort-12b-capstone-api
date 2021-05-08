@@ -18,3 +18,9 @@
 
 > Make sure you are able to test it out using postman.
 
+> Add passportjs authentication to the application
+
+---
+
+
+
