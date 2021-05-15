@@ -16,6 +16,7 @@ router.get('/test', function(req, res, next) {
 
 // GET - Fetch categories - /api/v1/categories
 router.get('/categories', async function(req, res, next) {
+    console.log('req.user', req.user)
     let categories = await models.Category.findAll({});
     res.json(categories);
 });
